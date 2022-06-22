@@ -1,0 +1,41 @@
+.Div1 {
+    border: 5px outset red;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.Div2 {
+    border: 5px outset greenyellow;
+    background-color: yellow;
+    text-align: center;
+    width: 50%
+}
+
+.Div2 > .Div3 {
+    border: 5px outset cyan;
+    background-color: orange;
+    text-align: center;
+    width: 25%
+}
+
+.flex-container {
+    display: flex;
+    background-color: indigo;
+    border: 5px outset pink;
+    width: 14%
+}
+
+.flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+h1 {
+    color: pink
+}
+
+body {
+    background-color: palevioletred
+}
